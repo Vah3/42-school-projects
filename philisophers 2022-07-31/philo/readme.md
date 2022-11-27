@@ -1,6 +1,6 @@
 # Philosophers
 ```
-FINAL GRADE: 125/100
+FINAL GRADE: 100/100
 ```
 
 **Objectif :** Modeling [the Philosophers' problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem)
