@@ -1,4 +1,4 @@
-prefix=/Users/vagevorg/Desktop/intra-uuid-45eb9563-39f8-4aca-abd0-f5cebcabd57d-4319467-vagevorg/readline-edgghaza
+prefix=/Users/vagevorg/Desktop/42-school-projects/minishell/readline-edgghaza
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
