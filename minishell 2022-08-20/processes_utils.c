@@ -6,7 +6,7 @@
 /*   By: vagevorg <vagevorg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/10 22:23:40 by edgghaza          #+#    #+#             */
-/*   Updated: 2022/10/12 20:03:34 by vagevorg         ###   ########.fr       */
+/*   Updated: 2022/12/07 20:37:17 by vagevorg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,7 @@ void	print_in_errno_and_free_exit(
 
 	print = NULL;
 	i = 0;
+	command[0] = get_correct_cmd(command[0]);
 	code_and_print(&code, &print);
 	ft_putstr_fd("minishell: ", 2);
 	ft_putstr_fd(command[0], 2);
